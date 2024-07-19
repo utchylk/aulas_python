@@ -1,4 +1,4 @@
-nome = str(input('Qual o seu nome? ')).strip()
+brenonome = str(input('Qual o seu nome? ')).strip()
 nome = nome.upper()
 if nome == 'LUCAS':
     print('Que nome lindo!')
