@@ -1,0 +1,6 @@
+digito = int(input('Digite um número entre 0 e 9999: '))
+dig = str(digito)
+print('Unidade: {}'.format(dig[3]))
+print('Dezena: {}'.format(dig[2]))
+print('Centena: {}'.format(dig[1]))
+print('Milhar: {}'.format(dig[0]))
