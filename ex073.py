@@ -1,0 +1,5 @@
+times = ('Grêmio', 'Internacional', 'Cruzeiro', 'Corinthians', 'Santos', 'Palmeiras', 'Atlético')
+print(f'Os primeiros 5 times são {times[0:5]}')
+print(f'Os 4 últimos times são {times[-4:]}')
+print(f'Times em ordem alfabética: {sorted(times)}')
+print(f'O grêmio está na {times.index('Grêmio')+1}ª posição.')
